@@ -1,0 +1,99 @@
+﻿生成启动时间为 2018/9/7 星期五 上午 11:48:34。
+     1>项目“E:\github\cropper\Cropper\cximage702_full\demo\demodll.vcxproj”在节点 4 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\cximage /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D VATI_EXTENSIONS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NON_CONFORMING_SWPRINTFS /D _WIN32_IE=0x0501 /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc /Fp"Debug\demodll.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\cximage /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D VATI_EXTENSIONS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NON_CONFORMING_SWPRINTFS /D _WIN32_IE=0x0501 /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt BCMenu.cpp ChildFrm.cpp demo.cpp demoDoc.cpp demoView.cpp dlgcapture.cpp DlgColorize.cpp DlgCombine.cpp DlgCustomFilter.cpp DlgDataExt.cpp DlgDecBpp.cpp DlgDither.cpp DlgExpand.cpp DlgFFT.cpp DlgFloodFill.cpp DlgGamma.cpp DlgHisto.cpp DlgIncBpp.cpp DlgJpeg.cpp DlgMix.cpp DlgOpacity.cpp DlgOptions.cpp DlgPalette.cpp DlgRepair.cpp DlgResample.cpp DlgRotate.cpp DlgShadow.cpp DlgSkew.cpp DlgText.cpp DlgThreshold.cpp DlgURL.cpp logomdi.cpp MainFrm.cpp Quantize.cpp TwainCpp.cpp xTargetButton.cpp
+         xTargetButton.cpp
+         TwainCpp.cpp
+     1>e:\github\cropper\cropper\cximage702_full\demo\twain.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Quantize.cpp
+         MainFrm.cpp
+     1>e:\github\cropper\cropper\cximage702_full\demo\twain.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         logomdi.cpp
+         DlgURL.cpp
+         DlgThreshold.cpp
+         DlgText.cpp
+         DlgSkew.cpp
+         DlgShadow.cpp
+         DlgRotate.cpp
+         DlgResample.cpp
+         DlgRepair.cpp
+         DlgPalette.cpp
+         DlgOptions.cpp
+         DlgOpacity.cpp
+         DlgMix.cpp
+         DlgJpeg.cpp
+         DlgIncBpp.cpp
+         DlgHisto.cpp
+     1>e:\github\cropper\cropper\cximage702_full\demo\twain.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+         正在编译...
+         DlgGamma.cpp
+         DlgFloodFill.cpp
+         DlgFFT.cpp
+         DlgExpand.cpp
+         DlgDither.cpp
+         DlgDecBpp.cpp
+         DlgDataExt.cpp
+         DlgCustomFilter.cpp
+         DlgCombine.cpp
+         DlgColorize.cpp
+         dlgcapture.cpp
+         demoView.cpp
+     1>e:\github\cropper\cropper\cximage702_full\demo\twain.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         demoDoc.cpp
+     1>e:\github\cropper\cropper\cximage702_full\demo\twain.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         demo.cpp
+     1>e:\github\cropper\cropper\cximage702_full\demo\twain.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ChildFrm.cpp
+         BCMenu.cpp
+     1>e:\github\cropper\cropper\cximage702_full\demo\bcmenu.cpp(1972): warning C4018: “<”: 有符号/无符号不匹配
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /IDebug\ /nologo /fo"Debug\demo.res" demo.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\github\cropper\Cropper\cximage702_full\Debug\demodll.exe" /INCREMENTAL /NOLOGO wininet.lib ../cximage/CxImageDLL/Debug/cximagecrtd.lib opencv_world330.lib opencv_world330d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\github\cropper\Cropper\cximage702_full\Debug\demodll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\github\cropper\Cropper\cximage702_full\Debug\demodll.lib" /MACHINE:X86 Debug\demo.res
+         Debug\BCMenu.obj
+         Debug\ChildFrm.obj
+         Debug\demo.obj
+         Debug\demoDoc.obj
+         Debug\demoView.obj
+         Debug\dlgcapture.obj
+         Debug\DlgColorize.obj
+         Debug\DlgCombine.obj
+         Debug\DlgCustomFilter.obj
+         Debug\DlgDataExt.obj
+         Debug\DlgDecBpp.obj
+         Debug\DlgDither.obj
+         Debug\DlgExpand.obj
+         Debug\DlgFFT.obj
+         Debug\DlgFloodFill.obj
+         Debug\DlgGamma.obj
+         Debug\DlgHisto.obj
+         Debug\DlgIncBpp.obj
+         Debug\DlgJpeg.obj
+         Debug\DlgMix.obj
+         Debug\DlgOpacity.obj
+         Debug\DlgOptions.obj
+         Debug\DlgPalette.obj
+         Debug\DlgRepair.obj
+         Debug\DlgResample.obj
+         Debug\DlgRotate.obj
+         Debug\DlgShadow.obj
+         Debug\DlgSkew.obj
+         Debug\DlgText.obj
+         Debug\DlgThreshold.obj
+         Debug\DlgURL.obj
+         Debug\logomdi.obj
+         Debug\MainFrm.obj
+         Debug\Quantize.obj
+         Debug\stdafx.obj
+         Debug\TwainCpp.obj
+         Debug\xTargetButton.obj
+     1>LINK : fatal error LNK1104: 无法打开文件“Debug\DlgHisto.obj”
+     1>已完成生成项目“E:\github\cropper\Cropper\cximage702_full\demo\demodll.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:01:00.82
